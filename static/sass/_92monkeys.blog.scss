@@ -1,0 +1,22 @@
+.blog_title {font-family:dosisbold;font-size:36px;line-height:220px;margin-left:5%;}
+.blog_posts-list {padding-bottom:100px;}
+.blog_posts-list_item {background-color:rgba(0,0,0,.1);padding:40px 80px;margin-bottom:40px;}
+.blog_post-title {margin-bottom:10px;
+	a {color:#488;font-family:dosisregular;font-size:30px;text-decoration:none;
+	&:hover {border-bottom:2px solid;}}}
+.blog_post-date {color:#aaa;display:block;margin-bottom:40px;}
+.blog_post-text {text-align:justify;margin-bottom:20px;text-indent:40px;max-width:840px;line-height:22px;}
+.blog_collapse-post {display:inline-block;background-color:#597;color:rgba(255,255,255,1);cursor:pointer;padding:5px 10px;margin-bottom:10px;}
+.blog_collapse-post__hide {display:none;}
+.blog-list {margin:30px 0;max-width:840px;padding-left:40px}
+.blog-post_label {display:inline-block;min-width:130px;}
+.blog-post_select {background:#C7D3E6;border-radius:5px;border-bottom:2px solid #9E9E9E;box-shadow:0 1px #E8E8E8 inset;padding:5px 10px;min-width:160px;
+	&:focus {outline:none;}}
+.popap-text {background-color:#666;color:#666;	margin:0 6px;
+	&:hover {background-color:transparent;}}
+.emphasis {color:#666;font-size:1.1em;font-style: italic;}
+.blog_post-subtitle {font-size:2em;color:#666;margin-top:80px;margin-bottom:20px;}
+.blog_post-link {font-size:1.4em;color:#666;padding-bottom:5px;text-decoration:none;
+	&:hover {color:#000;border-bottom:2px solid;}}
+.code {background:#202223;border-radius:4px;color:#E7F5BE;font-family:dosisregular;font-size:20px;margin-bottom:40px;max-width:650px;padding:10px 20px;}
+.console {background:#fff;border:1px solid #000;border-radius:4px;font-family:dosisregular;max-width:650px;padding: 10px 20px;}

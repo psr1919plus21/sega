@@ -1,0 +1,14 @@
+.l-footer {background:#c7c7c7;}
+.l-wrapper__footer p {font-family: dosisregular;font-size:18px;margin-top:$micromodule/2;
+	a {color:#707070;text-decoration:none;
+		&:hover {color:#6aa;}}}
+.footer_email:before {content:'';background: url('../img/mail.png') no-repeat;background-size:cover;display:inline-block;height:25px;margin-right:20px;vertical-align:middle;width:25px;}
+.footer_email:before {@include respond-max($mobile_size) {height:40px;width:40px;}}
+.footer_phone:before {content:'';background: url('../img/phone.png') no-repeat;background-size:cover;display:inline-block;height:25px;margin-right:10px;vertical-align:middle;width:25px;}
+.footer_phone:before {@include respond-max($mobile_size) {height:40px;width:40px;}}
+.footer_skype:before {content:'';background: url('../img/skype.png') no-repeat;background-size:cover;display:inline-block;height:25px;margin-right:20px;vertical-align:middle;width:25px;}
+.footer_skype:before {@include respond-max($mobile_size) {height:40px;width:40px;}}
+.footer_copy {padding-top:40px;text-align:center;
+	a {background:rgba(0,0,0,.9);border-radius:2px;color:#fff !important;display:inline-block;line-height:30px;min-width:120px;}
+	span {color:#aa0;}}
+.footer_niceday {color:222;text-align:center;margin-top:8%;}

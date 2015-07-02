@@ -1,0 +1,9 @@
+@mixin respond-min($min) {
+  @media only screen and (min-width: $min) { @content; }
+}
+@mixin respond-max($max) {
+  @media only screen and (max-width: $max) { @content; }
+}
+@mixin respond-minmax($min, $max) {
+  @media only screen and (min-width: $min) and (max-width: $max) { @content; }
+}

@@ -1,0 +1,27 @@
+body {font-family:sans-serif;}
+
+$mobile_size: 768px;
+$micromodule: 20px;
+
+/* Grid */
+.l-header {min-height:160px;padding:0  5% $micromodule/2 5%;}
+.l-header {@include respond-max($mobile_size) {padding:0;min-height:initial;}}
+.l-wrapper {padding:0 10%;margin:auto;max-width:1200px;}
+.l-wrapper__header {@include respond-max($mobile_size) {padding:0;}}
+.l-wrapper__footer {border-top:1px solid #888;max-width:1100px;}
+.l-page {background-color:#F5F3F4;margin:auto;}
+.l-footer {background-color:#F5F3F4;padding-bottom:$micromodule*4;}
+
+#emulator {margin:20px auto;}
+
+.games {border-top:1px solid #888;margin-top:22px;text-align:left;padding-bottom:200px;padding-top:22px;}
+.games_item {line-height: 22px;
+	a {color:#888;text-decoration:none;vertical-align:middle;display:inline-block;
+		&:hover {color:#222;}}}
+.gamelist-search_input {background: #f9f9f9;border:1px solid #f1f1f1;border-radius:5px;box-sizing:border-box;font-size:18px;line-height:42px;margin-top:18px;padding:0 15px;width:50%;
+	&:focus {border-color:#ddd;}}
+#vk_comments {display:inline-block;margin-bottom:100px;margin-top:40px;}
+.games_thumbnail {max-width:200px;}
+.games_description {cursor:default;display:inline-block;margin-left:18%;width:50%;}
+.games_item {border-radius:8px;margin-bottom:30px;padding:10px;
+	&:hover {background:#eaeaea;}}

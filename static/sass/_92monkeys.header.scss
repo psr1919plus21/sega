@@ -1,0 +1,17 @@
+.header_logo {margin-bottom:20px;}
+.header_menu {position:relative;}
+.header_menu-list {max-width:700px;}
+.header_menu-item {display:inline-block;margin-right:40px;}
+.header_menu-item-link {color:#000;font-family:dosisregular;font-size:26px;text-decoration:none;text-transform:uppercase;
+	&:hover {color:#6aa;}}
+.header_menu-item-link__active {border-bottom:2px solid #6aa;}
+.header_menu-mobile-btn {background:url('../img/header_menu-mobile-btn.png') no-repeat left top;background-size:cover;display:none;height:40px;max-height:40px;max-width:40px;position:absolute;right:10px;top:5px;width:40px;
+	&:hover {cursor:pointer;}}
+
+.header_logo {@include respond-max($mobile_size) {margin-bottom:0;}}
+.header_logo img {@include respond-max($mobile_size) {margin-bottom:0;width:100%;}}
+.header_menu-list {@include respond-max($mobile_size) {max-height:0;margin-top:5px;overflow:hidden;}}
+.header_menu-item {@include respond-max($mobile_size) {display:block;margin-bottom:10px;}}
+.header_menu-item-link {@include respond-max($mobile_size) {background-color:rgba(0,0,0,.3);display:block;width:50%;padding-left:40px;
+	&:hover {color:#fff;}}}
+.header_menu-mobile-btn {@include respond-max($mobile_size) {display:inline-block;}}
